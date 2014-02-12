@@ -128,19 +128,25 @@
                          Name:
                         		</div>
                             <div class="unit two-of-three">
-                            		<input name="Name" type="text" placeholder="Jane Doe" value=""/>
+                            		<input name="Name" type="text" placeholder="Jane Doe" value="" maxlength="100"/>
                        		</div>
                             <div class="unit one-of-three">
                             		Email:
                             </div>
                             <div class="unit two-of-three">
-                            		<input name="Email" type="text" placeholder="account@domain.com" value=""/>
+                            		<input name="Email" type="text" placeholder="account@domain.com" value="" maxlength="150"/>
+                            </div>
+                            <div class="unit one-of-three">
+                            		5-Digit Zipcode:
+                            </div>
+                            <div class="unit two-of-three">
+                            		<input name="Zipcode" type="text" placeholder="94610" value="" maxlength="5" pattern="[0-9]*"/>
                             </div>
                             <div class="unit one-of-three">
                             		Questions and Comments
                             </div>
                             <div class="unit two-of-three">
-                            		<textarea name="Message" rows="7"> </textarea>
+                            		<textarea name="Message" rows="7" maxlength="10000"> </textarea>
                             </div>
                             <div class="unit one-of-three">
                             		&nbsp;
