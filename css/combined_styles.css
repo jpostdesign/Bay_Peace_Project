@@ -973,7 +973,7 @@ button::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="su
 .four-of-five { width: 77%; }
 
 /*-----------------------------------*\
-        At screen sizes 597px (37.330em) wide and below, columns span 100%
+        At screen sizes 597px (37.330em) wide and below, columns span 100% 
 \*-----------------------------------*/
 
 @media screen and (max-width: 37.330em) {
@@ -1254,9 +1254,6 @@ fieldset[disabled] .btn-default.active {
 .marginAuto {
 	margin: auto;
 	display: table-cell;
-}
-.marginCenter {
-	margin: auto;
 }
 .marginBottom {
 	margin-bottom: 48px;
