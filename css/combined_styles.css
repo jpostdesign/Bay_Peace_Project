@@ -1202,7 +1202,10 @@ fieldset[disabled] .btn-default.active {
 .float-left {
 	float: left;
 }
-
+.footer {
+	color: rgba(240,240,240,1.00);
+	text-align:center;
+}
 .header {
     display: table;
     height: 100%;
@@ -1238,6 +1241,10 @@ fieldset[disabled] .btn-default.active {
 	border: 8px solid rgba(136,150,178,1.00);
 	border: 0.8rem solid rgba(136,150,178,1.00);
 }
+.leftMargin32 {
+	margin-left: 32px;
+	margin-left: 3.2rem;
+}
 .logoResize {
 	width: 50%;
 	max-width:400px;
@@ -1247,6 +1254,9 @@ fieldset[disabled] .btn-default.active {
 .marginAuto {
 	margin: auto;
 	display: table-cell;
+}
+.marginCenter {
+	margin: auto;
 }
 .marginBottom {
 	margin-bottom: 48px;
@@ -1280,6 +1290,9 @@ fieldset[disabled] .btn-default.active {
 	font-variant: small-caps;
 	font-size: 130%; /*font to match paragraph style */
 	line-height: 1.2; /* line height reset for slightly larger text*/
+}
+.smallText {
+	font-size: 13px; font-size: 1.3rem; /* =13px */
 }
 
 .vert-text {
