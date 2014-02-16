@@ -1272,7 +1272,7 @@ fieldset[disabled] .btn-default.active {
 }
 
 .nav a {
-  color: white;
+  color: rgba(240,240,240,1.00);
 }
 
 .offBlack-text {
@@ -1291,7 +1291,9 @@ fieldset[disabled] .btn-default.active {
 .smallText {
 	font-size: 13px; font-size: 1.3rem; /* =13px */
 }
-
+.textWhite {
+	color: rgba(240,240,240,1.00);
+}
 .vert-text {
     display: table-cell;
     text-align: center;
