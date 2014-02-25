@@ -1294,6 +1294,9 @@ fieldset[disabled] .btn-default.active {
 .textWhite {
 	color: rgba(240,240,240,1.00);
 }
+.textAlignRight {
+	text-align: right;
+}
 .vert-text {
     display: table-cell;
     text-align: center;

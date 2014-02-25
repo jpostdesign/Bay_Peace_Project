@@ -1,5 +1,5 @@
 <?php 
- $to = "baypeace.powerofyouth@gmail.com"; 
+ $to = "baypeace@baypeace.org"; 
  $from = $_REQUEST['Email']; 
  $name = $_REQUEST['Name'] ; 
  $headers = "From: $from"; 
@@ -14,7 +14,7 @@
  
  $body = "Contact details from the web form:\n\n"; foreach($fields as $a => $b){ 	$body .= sprintf("%20s: %s\n",$b,$_REQUEST[$a]); } 
  
- $headers2 = "From: baypeace.powerofyouth@gmail.com"; 
+ $headers2 = "From: baypeace@baypeace.org"; 
  $subject2 = "Thank you for contacting us"; 
  $autoreply = "Thank you for contacting us and making a difference! If you have any more questions, please consult our main website at http://www.baypeace.org/ for general information and contact information";
  
@@ -27,7 +27,7 @@
  if($send) 
  {header( "Location: thankyou.html" );} 
  else 
- {print "We encountered an error sending your mail, please notify webmaster@YourCompany.com"; } 
+ {print "We encountered an error sending your mail, please notify baypeace@baypeace.org"; } 
  }
 }
  ?> 
