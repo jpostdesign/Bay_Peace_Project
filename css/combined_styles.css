@@ -900,21 +900,21 @@ button::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="su
 
 /*-----------------------------------*\
         $CONTAINERS
-		Containers setup for max 520px / 52.0rem, and 1040px / 104.0rem. Determined by base font size of 16px / 1.6 rem. (16 x 32.5 = 520), (16 x 65 = 1040)
+		Containers setup for max 544px / 54.4rem, and 1088px / 108.8rem. Determined by 2 alphabets at base font size of 16px / 1.6 rem plus 4 characters of padding on left and 4 characters of padding on right. Average em-width of character is 1/2 of height, so 26 characters in alphabet, times 2, divided by 2, plus 8 = 34 (16 x 34 = 520), (16 x 68 = 1088)
 \*-----------------------------------*/
 
-.container550 {
-       max-width: 550px;
-		max-width: 55.0rem;
+.container544 {
+       max-width: 544px;
+		max-width: 54.4rem;
        margin: 0 auto;
 		padding: 16px 32px;
 		padding: 1.6rem 3.2rem;
     background-color: rgba(240,240,240,1.00);
 }
 
-.container1040 {
-       max-width: 1040px;
-		max-width: 104.0rem;
+.container1088 {
+       max-width: 1088px;
+		max-width: 108.8rem;
        margin: 0 auto;
 		padding: 16px 32px;
 		padding: 1.6rem 3.2rem;
